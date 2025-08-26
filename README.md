@@ -4,28 +4,49 @@
 This immersive project combines the power of **Unity**, **Blender**, and **Next.js** to provide a risk-free, realistic training experience for surgeons with integrated **remote mentorship** through a web-based platform.
 
 ---
+
 ## 📚 Table of Contents
 
-- [🎯 Features](#-features)
 - [📽️ Demo](#-demo)
-  - [2️⃣ Bone Reduction Step](#2-bone-reduction-step)
-  - [3️⃣ Entry Site Creation & Nail Insertion](#3-entry-site-creation--nail-insertion)
-  - [4️⃣ Proximal Locking](#4-proximal-locking)
-  - [5️⃣ Distal Locking](#5-distal-locking)
-  - [6️⃣ Performance Review](#6-performance-review)
-- [🧠 Technologies Used](#-technologies-used)
+- [🎯 Features](#-features)
 - [👥 Authors](#-authors)
 
 ---
+## 📽️ Demo
+
+### Project Overview
+
+https://www.youtube.com/watch?v=oN2mQlsdLbs
+
+---
+
 ## 🎯 Features
 
-### 🛠️ Surgical Simulation
 
-- Step-by-step tibial intramedullary nailing procedure.
-- Training Mode (guided) and Assessment Mode (free practice).
-- Real-time feedback (text & audio).
-- X-ray simulation using custom shaders and a 3D C-arm.
-- Realistic surgical tools and OR environment modeled in Blender.
+
+## Two modes: **Training** (with guides) and **Assessment** (free practice).  
+
+<div align="center" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+  <img src="Demo/guides.png" alt="X-ray view 1" style="max-width:48%; height:auto; min-width:280px;">
+</div>
+
+## X-ray simulation using custom shaders and a 3D C-arm
+<div align="center" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+  <img src="Demo/xray1.png" alt="X-ray view 1" style="max-width:48%; height:auto; min-width:280px;">
+  <img src="Demo/xray2.png" alt="X-ray view 2" style="max-width:48%; height:auto; min-width:280px;">
+</div>
+
+## Users can choose the fracture type to practice on.  
+<div align="center" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+  <img src="Demo/choose_fracture.png" alt="X-ray view 1" style="max-width:48%; height:auto; min-width:280px;">
+</div>
+
+## Performance is tracked and reviewed after completion.  
+
+<div align="center" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+  <img src="Demo/attemp1.png" alt="X-ray view 1" style="max-width:48%; height:auto; min-width:280px;">
+  <img src="Demo/attemp2.png" alt="X-ray view 2" style="max-width:48%; height:auto; min-width:280px;">
+</div>
 
 ### 🌐 Web-Based Mentorship Platform – _OrthoSim_
 
@@ -35,50 +56,13 @@ This immersive project combines the power of **Unity**, **Blender**, and **Next.
 - AI assistant (Google Gemini) for 24/7 help and surgical Q&A.
 - Real-time integration with Unity via RESTful API.
 
----
-
-## 📽️ Demo
-### Project Overview
-https://www.youtube.com/watch?v=oN2mQlsdLbs
-### 2️⃣ Bone Reduction Step
-
-<div align="center">
-  <img src="Demo/1.gif"  width="640">
+<div align="center" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+  <img src="Demo/website1.png" alt="X-ray view 1" style="max-width:48%; height:auto; min-width:280px;">
+  <img src="Demo/website2.png" alt="X-ray view 2" style="max-width:48%; height:auto; min-width:280px;">
 </div>
-
 ---
 
-### 3️⃣ Entry Site Creation & Nail Insertion
 
-<div align="center">
-  <img src="Demo/nail.gif"  width="640">
-</div>
-
----
-
-### 4️⃣ Proximal Locking
-
-<div align="center">
-  <img src="Demo/3.gif"  width="640">
-</div>
-
----
-
-### 5️⃣ Distal Locking
-
-<div align="center">
-  <img src="Demo/distal locking.gif"  width="640">
-</div>
-
----
-
-### 6️⃣ Performance Review
-
-<div align="center">
-  <img src="Demo/attemp.gif"  width="640">
-</div>
-
----
 
 ## 🧠 Technologies Used
 
